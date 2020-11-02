@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="500.0" prefWidth="687.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <VBox layoutX="14.0" layoutY="14.0" prefHeight="440.0" prefWidth="667.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="RULES" textAlignment="CENTER" wrappingWidth="660.13671875">
+               <font>
+                  <Font size="37.0" />
+               </font>
+            </Text>
+            <TextArea prefHeight="349.0" prefWidth="667.0" text="Object:&#10; The object of the game is to collect the most pieces by the end of the game.&#10;Game Play:&#10;1. The game begins with one player picking up all of the pieces in any one of the pockets &#10;on his/her side.&#10;2. Moving counter-clockwise, the player deposits one of the stones in each pocket until the&#10; stones run out.&#10;3. If you run into your own Mancala (store), deposit one piece in it. If you run into your &#10;opponent's Mancala, skip it and continue moving to the next pocket.&#10;4. If the last piece you drop is in your own Mancala, you take another turn.&#10;5. If the last piece you drop is in an empty pocket on your side, you capture that piece &#10;and any pieces in the pocket directly opposite." wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font></TextArea>
+         </children>
+      </VBox>
+      <Button fx:id="buttonToBoard" layoutX="98.0" layoutY="436.0" mnemonicParsing="false" onAction="#screenToMain" prefHeight="37.0" prefWidth="492.0" text="Back To Game" />
+   </children>
+</AnchorPane>

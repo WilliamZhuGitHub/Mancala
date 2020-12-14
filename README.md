@@ -5,5 +5,5 @@
 ## Tech
 * Built using Java and Java FX 
 * Java FXML generated using Scenebuilder
-* Manacal Board built using Photoshop 
+* Mancala Board built using Photoshop 
 
